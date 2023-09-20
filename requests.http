@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json 
+
+{
+    "name": "Andres Perez",
+    "age": "2",
+    "telefone":11235689784,
+    "race":"Pastor Alaman"
+}
+###
+GET  http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/65089986ef8c5399232386b9 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/65089986ef8c5399232386b9 HTTP/1.1
+Content-Type: application/json 
+
+{
+    "name": "Milan Gomez",
+    "age": "5",
+    "telefone":11123456789,
+    "race":"Shih Tzu"
+}
+
+### 
+DELETE http://localhost:9000/api/users/650897b2a21b4e8038389ab3 HTTP/1.1
