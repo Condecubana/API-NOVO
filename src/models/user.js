@@ -14,8 +14,8 @@ const userSchema = mongoose.Schema({
         require:true
     },
     race: {
-    type: String,
-    require: true
+        type: String,
+        require: true
     },
 });
 
