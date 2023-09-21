@@ -5,13 +5,17 @@ const userSchema = mongoose.Schema({
         type: String,
         require:true
     },
-    age: {
-        type: Number,
-        require: true
-    },
     telefone: {
         type: Number,
         require:true
+    },
+    email: {
+        type: String,
+        require:true
+    },
+    agepet: {
+        type: Number,
+        require: true
     },
     race: {
         type: String,

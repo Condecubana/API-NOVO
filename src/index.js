@@ -9,10 +9,10 @@ const swaggerUI = require("swagger-ui-express");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerSpec = {
     definition: {
-        openapi: "3.1.0",
+        openapi: "3.0.0",
         info: {
             title: "API Crud Node MongoDB Express",
-            version: "2.0.0"
+            version: "1.0.0"
         },
         servers: [
           {

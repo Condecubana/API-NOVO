@@ -3,9 +3,10 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json 
 
 {
-    "name": "Andres Perez",
-    "age": "2",
-    "telefone":11235689784,
+    "name": "Andres Marin",
+    "telefone": "11235689784",
+    "email": "andresmarin@gmail.com",
+    "agepet":2,
     "race":"Pastor Alaman"
 }
 ###
@@ -19,11 +20,12 @@ PUT http://localhost:9000/api/users/65089986ef8c5399232386b9 HTTP/1.1
 Content-Type: application/json 
 
 {
-    "name": "Milan Gomez",
-    "age": "5",
-    "telefone":11123456789,
-    "race":"Shih Tzu"
+    "name": "Andres Marin",
+    "telefone": "11235689784",
+    "email": "andresmarin@gmail.com",
+    "agepet":2,
+    "race":"Pastor Alaman"
 }
 
 ### 
-DELETE http://localhost:9000/api/users/650897b2a21b4e8038389ab3 HTTP/1.1
+DELETE http://localhost:9000/api/users/650b8de570dd66895ddb210c HTTP/1.1
